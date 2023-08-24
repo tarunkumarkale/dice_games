@@ -1,0 +1,143 @@
+.main{
+    display: flex;
+    width:100;
+height:37.89459815546772vh;
+
+gap: 19.09888357256779vw;
+
+}
+.main .start h1{
+    font-family: cursive;
+font-size: 11.759170653496vw;
+/* font-weight: 200; */
+ line-height: 3.23vh; 
+text-align: left;
+margin-left: 4.78vw;
+margin-bottom:10vh ;
+
+}
+.main .start {
+  margin-left: 3.18vw;
+  
+}
+.main .start h2 {
+  margin-left: 4.18vw;
+  
+}
+
+
+
+
+.main  .end {
+    width: 87.17vw;
+    height:18.18vh ;
+    gap: 4.78vw;
+    display: flex;
+margin-top: 3vh;
+flex-wrap: wrap;
+flex-direction: row;
+    }
+
+    .main .end .box{
+        width: 3.18vw;
+        height: 3.18vh;
+        padding: 1.59vw 1.59vh ;
+        text-align: center;
+        border: 1px solid black;
+        cursor: pointer;
+        font-size: 1.6vw;
+        transition:.5s background ease-in;
+        
+
+    }
+
+    
+    .main .end .box:hover{
+color: white;
+background-color: black;
+        border: 1px solid black;
+        cursor: pointer;
+        
+
+    }
+    .main .end .box:visited{
+color: white;
+background-color: black;
+        border: 1px solid black;
+        cursor: pointer;
+        
+
+    }
+
+    
+
+
+@media (max-width:500px) {
+    main .start h1  {
+        position: relative;
+        bottom: 2vh;
+        line-height: 0.23vh;
+        padding-left: 5vw;
+        
+        
+      }
+    /* main .start h2 {
+        margin-bottom: 9vh;
+        
+      } */
+}
+.pos{
+    margin-top: -1vh;
+    margin-right: 20vw;
+}
+
+.dice1{
+  margin-left: 44vw;
+  margin-top: -2vh;
+  display: block;
+
+}
+.dice1 img{
+ width: 16vw;
+ height: auto;
+ margin-top: -1vh;
+cursor: pointer;
+}
+.dice1 img:active{
+    filter: drop-shadow(16px 16px 20px black) invert(2%);
+    
+}
+
+.S{
+ margin-right: 5vw;
+    font-size: 2vw;
+}
+
+.btn {
+    /* width: 12vw;
+    height: auto;
+    font-size: 1vw;
+    background-color: black;
+    color:white; */
+  
+ margin-left: 2vw; 
+   display: flex;
+   gap: 1vw;
+   align-items: center;
+  
+}
+.btn button{
+    width: 12vw;
+    height: auto;
+    font-size: 1vw;
+    background-color: black;
+    color:white;
+    padding: 1vw 1vh;
+    transition:.5s background ease-in;
+}
+.btn button:hover{
+    cursor: pointer;
+    background-color: white;
+    color:black;
+   
+}

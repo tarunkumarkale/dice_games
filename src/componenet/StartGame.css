@@ -1,0 +1,43 @@
+
+.container{
+     max-width: 114vw;
+    max-height: 68.8vh;
+    display: flex;
+    margin-top: 21.47vh;
+    margin-left:12.45vw ;
+    gap:3vw; 
+   
+
+}
+
+.container img{
+     width:68.64vh;
+     height:68.64vh;
+}
+.container h1{
+    align-items: end;
+width:69.96vh;
+
+font-size: 5.78vw;
+margin-top: 13vh;
+}
+
+.container button{
+    width: 18.2vw;
+    height: 5.84vh;
+    color: white;
+    background-color: black;
+    font-size: 1.7vw;
+    margin-left: 9vw;
+    margin-bottom: 10vw;
+    transition:.5s background ease-in;
+ 
+}
+.container button:hover{
+background-color: white;
+color: black;
+cursor: pointer;
+
+transition:.5s background ease-in;
+filter: drop-shadow(16px 16px 20px black) invert(15%);
+}
